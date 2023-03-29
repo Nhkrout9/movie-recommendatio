@@ -1,0 +1,239 @@
+::-webkit-scrollbar {
+    width: 0.8px;
+}
+.popup_container{ background-color:green;
+    border:1px green solid;
+    height:200px;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    display: none;
+    border-radius: 8px;
+    font-family: “Poppins”,sans-serif;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 160px;
+    margin-bottom: 300px; }
+
+    .popup{
+        background-color:yellow;
+        border:1px green solid;
+        height:100px;
+        width: 320px;
+        padding: 30px 40px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        
+        display: none;
+        border-radius: 8px;
+        font-family: “Poppins”,sans-serif;
+        text-align: center;
+        margin-left: 80px;
+        margin-top: 160px;
+        margin-bottom: 300px;
+    }
+    
+   
+   
+    .popup_container button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #03549a;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+}
+.mystyle{display:none;}
+.block:hover .mystyle{display: block; float:right; margin-right: 20px;}
+
+.enter{height:20px;
+        width:20px;
+        float:right;}
+
+
+.block {
+    background-color: black;
+    border: 1px green solid;
+    height: 85px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.block div{
+    color: #ffffff;
+    font-size: larger;
+    width: 10%;
+    margin: 0 !important;
+}
+
+.wrapper div:hover {
+    background-color: green;
+}
+
+.shyam {
+    font-size: larger;
+    color: white;
+}
+
+.shyam1 {
+    color: white;
+    text-align: right;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.wrapper {
+    float: right;
+    height: 187px;
+    width: 800px;
+    margin-top: 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-right: 20px;
+}
+
+.header {
+    background-color: black;
+    height: 100px;
+    width: full-width;
+    margin: 0px;
+}
+
+.main {
+    background-color: rgb(80, 92, 92);
+    height: 350px;
+    width: full-width;
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
+    width: full-width;
+    margin: 0px;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.alignleft {
+    width: 33.33333%;
+    text-align: left;
+    line-height: 1.3;
+}
+
+.aligncenter {
+    width: 33.33333%;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.alignright {
+    width: 33.33333%;
+    text-align: right;
+    line-height: 1.3;
+}
+
+.img_prop {
+    height: auto;
+    width: 100px;
+    left: 200px;
+    display: block;
+    position: relative;
+}
+.img_enter{ height: auto;
+    width: 100px;
+    float:left;
+    display: block;
+    position: relative;}
+
+.p_prop {
+    text-align: left;
+    color: white;
+}
+
+span {
+    font-size: 20px;
+}
+
+#txt {
+    color: white;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.logo_pro {
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.dd {
+    color: white;
+    position: absolute;
+    margin-bottom: 0px;
+    display: inline;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.channel_list_prop {
+    margin-left: 400px;
+    height: 55px;
+    width: 55px;
+}
+
+.channel_list {
+    color: green;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.mar {
+    margin-right: 25px;
+    height: 100px;
+    width: 100px;
+}
+
+.help {
+    height: 55px;
+    width: 70px;
+    margin-right: 40px;
+    margin-top: 24px;
+}
+
+.img21 {
+    margin-top: 237px;
+    display: block;
+    height: 50px;
+    width: 250px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+
+
+.channelLocation{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
